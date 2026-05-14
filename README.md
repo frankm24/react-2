@@ -34,8 +34,4 @@ npm run build
 
 ## Deploy
 
-`netlify.toml` is included for Netlify deployment:
-
-- Build command: `npm run build`
-- Publish directory: `dist`
-- SPA redirect to `index.html`
+GitHub Actions workflow at `.github/workflows/deploy.yml` deploys to GitHub Pages on pushes to `main`.

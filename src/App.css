@@ -1,0 +1,85 @@
+.app-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.topbar nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.topbar button {
+  background: #24243a;
+  border: 1px solid #3e3e66;
+}
+
+.topbar button.active {
+  border-color: #6f8cff;
+  color: #dce4ff;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+  background: #171728;
+  border: 1px solid #2e2e4c;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.hint,
+.muted {
+  color: #a6a7cb;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  background: #0f0f1a;
+  border: 1px solid #39395f;
+  border-radius: 8px;
+  color: #f7f7ff;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.88rem;
+  padding: 0.75rem;
+}
+
+.preview .dsl-preview {
+  margin-top: 0.75rem;
+  border-top: 1px solid #2f2f4d;
+  padding-top: 0.75rem;
+}
+
+.panel {
+  border: 1px solid #343456;
+  border-radius: 10px;
+  padding: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.metric strong {
+  font-size: 2rem;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
